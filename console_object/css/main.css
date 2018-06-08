@@ -1,0 +1,22 @@
+body, html{
+  width: 100;
+  height:100%;
+  background:#f1f1f1;
+}
+
+*{
+  height:100%;
+  color:#6a6a6a;
+}
+
+i{
+  font-size: 92px;
+  margin-bottom: 20px;
+  color: #4a4a4a;
+}
+
+h1, h2{
+  height:auto;
+  margin:0;
+  text-align: center;
+}
