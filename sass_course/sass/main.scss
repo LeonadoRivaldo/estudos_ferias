@@ -1,9 +1,52 @@
-div#main{
-  width:100%;
-  h1#title{
-    font-size:12px;
+@import url('//fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,700italic');
+@import url('//fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100&subset=latin,latin-ext');
+
+
+//other files
+// @import url("./_variables")
+
+//variaveis
+$azul: #2196f3;
+$text_size:20px;
+
+//css
+*{
+  margin:0;
+  padding:0;
+  -webkit-text-stroke: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: 'Roboto Slab', serif;
+  color: #333;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.texto{
+  text-align: justify;
+  font-size:$text_size;
+}
+
+
+/* HEAD */
+#head{
+  .menu{
+    .container{
+      .info{
+        font-size:$text_size;
+      }
+      .logo{
+        i{
+          font-size:40px;
+          &:hover{
+            color:$azul;
+          }
+        }
+      }
+    }
   }
-  p{
-    font-weight:bold;
-  } 
 }
